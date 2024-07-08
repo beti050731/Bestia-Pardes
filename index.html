@@ -6,6 +6,7 @@
     <title>Catchphraise-Béstĭa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
     <style>
         body {
@@ -35,7 +36,6 @@
             background: linear-gradient(to right, #E9C12A, #824AC2);
             -webkit-background-clip: text;
             color: transparent;
-            font-family: 'Noto Serif TC', serif; /* Noto Serif TC 폰트 적용 */
         }
         h3 a {
             background: linear-gradient(to right, #E9C12A, #824AC2);
@@ -68,6 +68,11 @@
             h3 { font-size: 1.2em; }
             h5 { font-size: 0.8em; }
         }
+
+        /* Noto Serif TC 폰트를 적용할 스타일 */
+        .font-noto {
+            font-family: 'Noto Serif TC', serif;
+        }
     </style>
 </head>
 <body>
@@ -81,7 +86,7 @@
     <h5 class="animated" style="font-family: Arial, sans-serif;">맹수,</h5><br><br>
     <h2 class="animated" style="color: #824AC2; font-weight: bold;">Béstĭa.</h2>
     <h5 class="animated" style="font-family: Arial, sans-serif;">베스티아.</h5><br><br><br>
-    <h3 class="animated"><a href="https://example.com">-.-. --- -.. .   -. .- -- . ---...   ... .... .- -.. --- .--</a></h3><br><br><br>
+    <h3 class="animated font-noto"><a href="https://example.com">-.-. --- -.. .   -. .- -- . ---...   ... .... .- -.. --- .--</a></h3><br><br><br>
     <script>
         document.addEventListener('scroll', function() {
             var elements = document.querySelectorAll('.animated');
